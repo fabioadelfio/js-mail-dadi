@@ -32,6 +32,8 @@ for(i = 0; i < emails.length && isEmailValid === false; i++) {
     }
 }
 
+// # OUTPUT
+
 // Stampo un messaggio appropriato a seconda dell'esito del controllo
 if(isEmailValid === true) {
     alert(`L'email inserita è valida! Benvenuto!`);
